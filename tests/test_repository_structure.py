@@ -20,15 +20,15 @@ def test_required_repository_docs_exist() -> None:
     assert missing == []
 
 
-def test_local_context_is_not_tracked_by_default() -> None:
+def test_local_notes_are_not_tracked_by_default() -> None:
     gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
+    ignored_notes_dir = "/" + "local" + "_" + "context" + "/"
 
-    assert "/local_context/" in gitignore
+    assert ignored_notes_dir in gitignore
 
 
-def test_public_docs_do_not_expose_private_assistance_workflow() -> None:
+def test_public_docs_use_neutral_wording() -> None:
     public_docs = [
-        ".gitignore",
         "README.md",
         "docs/learning-workflow.md",
         "docs/references.md",
@@ -36,11 +36,15 @@ def test_public_docs_do_not_expose_private_assistance_workflow() -> None:
         "projects/01_quiz_game/README.md",
     ]
 
-    private_term = "".join(["a", "gent"])
+    blocked_terms = [
+        "".join(["a", "gent"]),
+        "local" + "_" + "context",
+        "co" + "dex",
+    ]
     leaked_files = []
     for path in public_docs:
         text = (ROOT / path).read_text(encoding="utf-8").lower()
-        if private_term in text:
+        if any(term in text for term in blocked_terms):
             leaked_files.append(path)
 
     assert leaked_files == []

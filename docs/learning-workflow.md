@@ -1,6 +1,6 @@
 # Learning Workflow
 
-This repository is designed for independent practice. Hints, references, review notes, and quality checks may be used to support learning, but the project code should be written manually by the learner.
+This repository is designed for independent Python practice. Each project should be approached as a small problem to understand, implement, run, review, and document.
 
 ## Workflow
 
@@ -13,23 +13,23 @@ This repository is designed for independent practice. Hints, references, review 
 7. Review readability, naming, edge cases, and documentation.
 8. Commit the completed checkpoint.
 
-## Learning Support Boundary
+## Learning Support Standard
 
 Helpful support may include:
 
-- Concept explanations.
-- Problem briefs.
-- Review notes.
-- Test ideas.
-- Edge-case suggestions.
-- Command and repository health checks.
+- concept explanations,
+- problem briefs,
+- review notes,
+- test ideas,
+- edge-case suggestions,
+- command and repository health checks.
 
 Support should avoid:
 
-- Providing full finished solutions before an independent attempt.
-- Turning beginner projects into unnecessarily abstract architecture.
-- Making public claims that make a learning project sound production-grade.
+- providing full finished solutions before an independent attempt,
+- turning beginner projects into unnecessarily abstract architecture,
+- making public claims that make a learning project sound production-grade.
 
-## Public Documentation Standard
+## Documentation Standard
 
-Public repository files should stay professional and concise. They should explain what the project does, how to run it, what was learned, and what limitations remain.
+Public project documentation should stay concise and practical. It should explain what the project does, how to run it, what was learned, and what limitations remain.

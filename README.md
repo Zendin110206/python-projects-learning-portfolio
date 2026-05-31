@@ -1,26 +1,34 @@
 # Python Projects Learning Portfolio
 
-A self-directed Python learning portfolio built around small projects, practical problem solving, and clear documentation. The repository is inspired by Tech With Tim's "9 HOURS of Python Projects - From Beginner to Advanced" project sequence, but the implementations are intended to be written independently as learning exercises.
+A curated Python learning portfolio focused on small, practical projects, independent implementation, and clear documentation.
+
+This repository is inspired by Tech With Tim's public Python project sequence, but the implementations are intended to be written independently. The goal is to build strong Python fundamentals through deliberate practice, not to copy finished tutorial code.
 
 ## Current Status
 
-Repository preparation is complete. Project 01, Quiz Game, is in progress. The implementation has not been added yet because it is intended to be written independently as a learning exercise.
+| Area | Status |
+| --- | --- |
+| Repository setup | Complete |
+| Project 01 - Quiz Game | In progress |
+| Project implementations | Added one project at a time |
 
-The purpose of this setup is to keep a clean public workspace while each project is added one at a time with its own problem brief, implementation, run instructions, and quality checks.
+Project 01 currently has a public project brief. The source code has not been added yet because the implementation will be completed manually as part of the learning process.
 
-## Learning Principles
+## Learning Goals
 
-- Write the project code independently instead of copying a finished solution.
-- Work on one project at a time.
-- Keep public documentation in English.
-- Keep private learning notes and planning guidance outside the public repository history.
-- Use tests where they add meaningful confidence.
-- Keep claims honest: this is a learning portfolio, not a production software suite.
+- Strengthen Python fundamentals through hands-on projects.
+- Practice writing readable command-line programs.
+- Build a consistent habit of documenting project scope, behavior, and limitations.
+- Use tests and linting where they add meaningful confidence.
+- Keep each project honest about its status, scope, and learning purpose.
 
 ## Repository Structure
 
 ```text
 .
+├── .github/
+│   └── workflows/
+│       └── ci.yml
 ├── docs/
 │   ├── learning-workflow.md
 │   └── references.md
@@ -35,8 +43,6 @@ The purpose of this setup is to keep a clean public workspace while each project
 ├── requirements-dev.txt
 └── README.md
 ```
-
-`local_context/` exists locally for private planning notes, reading audits, and project guidance. It is intentionally excluded from Git and is not part of the public repository.
 
 ## Getting Started
 
@@ -56,10 +62,28 @@ python -m pytest
 python -m ruff check .
 ```
 
+## Quality Checks
+
+This repository uses:
+
+- `pytest` for automated checks.
+- `ruff` for Python linting.
+- GitHub Actions for continuous integration on push and pull request events.
+
+The current CI workflow installs the development dependencies, runs the test suite, and checks the code with Ruff.
+
 ## Project Roadmap
 
-The planned project sequence is listed in [PROJECTS.md](PROJECTS.md). Each project will be introduced only when it is ready to be worked on, so the repository can grow through deliberate checkpoints instead of unfinished clutter.
+The full project sequence is tracked in [PROJECTS.md](PROJECTS.md).
+
+Each project should eventually include:
+
+- a concise project README,
+- clear input and output behavior,
+- source code that can be run from the terminal,
+- tests when the logic is deterministic,
+- notes about limitations and possible improvements.
 
 ## Attribution
 
-This repository is inspired by the project order from Tech With Tim's public Python project tutorial video. It is not affiliated with Tech With Tim, and the goal is not to copy the tutorial source code. The goal is to practice Python by solving each project independently and documenting the learning process professionally.
+This repository is inspired by the project order from Tech With Tim's public Python project tutorial video. It is not affiliated with Tech With Tim. External references are listed in [docs/references.md](docs/references.md).
