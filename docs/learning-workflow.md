@@ -1,6 +1,6 @@
 # Learning Workflow
 
-This repository is designed for independent practice. The agent may prepare problem briefs, quality gates, and review notes, but the project code should be written manually by the learner.
+This repository is designed for independent practice. Hints, references, review notes, and quality checks may be used to support learning, but the project code should be written manually by the learner.
 
 ## Workflow
 
@@ -13,21 +13,22 @@ This repository is designed for independent practice. The agent may prepare prob
 7. Review readability, naming, edge cases, and documentation.
 8. Commit the completed checkpoint.
 
-## Agent Boundary
+## Learning Support Boundary
 
-The agent may:
+Helpful support may include:
 
-- Explain concepts in Indonesian when needed.
-- Prepare markdown guidance in `local_context/`.
-- Review code and point out bugs.
-- Suggest tests and edge cases.
-- Help verify commands and repository health.
+- Concept explanations.
+- Problem briefs.
+- Review notes.
+- Test ideas.
+- Edge-case suggestions.
+- Command and repository health checks.
 
-The agent should avoid:
+Support should avoid:
 
-- Writing the full project solution before the learner tries.
+- Providing full finished solutions before an independent attempt.
 - Turning beginner projects into unnecessarily abstract architecture.
-- Adding public claims that make a learning project sound production-grade.
+- Making public claims that make a learning project sound production-grade.
 
 ## Public Documentation Standard
 
