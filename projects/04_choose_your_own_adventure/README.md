@@ -1,8 +1,8 @@
 # Project 04 - Choose Your Own Adventure Game
 
-Status: In progress.
+Status: Completed.
 
-This project is a beginner-friendly command-line adventure game. The implementation is intentionally not included yet because the project is meant to be written independently as Python practice.
+This project is a beginner-friendly command-line adventure game. The player enters a name, makes story choices, and reaches a win, loss, or invalid-choice ending.
 
 ## Goal
 
@@ -26,9 +26,9 @@ Build a small terminal program that:
 - readable terminal output,
 - keeping control flow clear as choices split into paths.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/04_choose_your_own_adventure/src/choose_your_own_adventure.py
@@ -69,3 +69,9 @@ Thank you for trying, Alex.
 - Invalid choices are handled without crashing.
 - The story has clear win and loss endings.
 - The final closing message includes the player's name.
+
+## Notes
+
+- User choices are normalized with outer-space trimming and lowercase conversion.
+- The story is intentionally short so the project can focus on branching control flow.
+- This is a terminal learning project, not a full interactive fiction engine.

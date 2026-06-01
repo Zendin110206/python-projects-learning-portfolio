@@ -16,6 +16,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/03_rock_paper_scissors/README.md",
         "projects/03_rock_paper_scissors/src/rock_paper_scissors.py",
         "projects/04_choose_your_own_adventure/README.md",
+        "projects/04_choose_your_own_adventure/src/choose_your_own_adventure.py",
+        "projects/05_password_manager/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
     ]
@@ -42,6 +44,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/02_number_guessing_game/README.md",
         "projects/03_rock_paper_scissors/README.md",
         "projects/04_choose_your_own_adventure/README.md",
+        "projects/05_password_manager/README.md",
     ]
 
     blocked_terms = [

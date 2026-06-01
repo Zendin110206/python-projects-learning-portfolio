@@ -7,8 +7,8 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | 1 | Quiz Game | Easy | `projects/01_quiz_game/` | Completed |
 | 2 | Number Guessing Game | Easy | `projects/02_number_guessing_game/` | Completed |
 | 3 | Rock, Paper, Scissors | Easy | `projects/03_rock_paper_scissors/` | Completed |
-| 4 | Choose Your Own Adventure Game | Easy | `projects/04_choose_your_own_adventure/` | In Progress |
-| 5 | Password Manager | Medium | `projects/05_password_manager/` | Planned |
+| 4 | Choose Your Own Adventure Game | Easy | `projects/04_choose_your_own_adventure/` | Completed |
+| 5 | Password Manager | Medium | `projects/05_password_manager/` | In Progress |
 | 6 | PIG Dice Game | Medium | `projects/06_pig_dice_game/` | Planned |
 | 7 | Mad Libs Generator | Medium | `projects/07_madlibs_generator/` | Planned |
 | 8 | Timed Math Challenge | Medium | `projects/08_timed_math_challenge/` | Planned |
