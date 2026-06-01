@@ -1,6 +1,6 @@
 # Projects
 
-Project folders will be added here one at a time.
+Project folders are added here one at a time as each exercise starts.
 
 Expected folder convention:
 
@@ -13,3 +13,11 @@ projects/
 ```
 
 The exact structure may change for projects that need assets, data, or a different runtime layout.
+
+## Current Projects
+
+| Project | Status |
+| --- | --- |
+| [01 Quiz Game](01_quiz_game/README.md) | Completed |
+| [02 Number Guessing Game](02_number_guessing_game/README.md) | Completed |
+| [03 Rock, Paper, Scissors](03_rock_paper_scissors/README.md) | In progress |

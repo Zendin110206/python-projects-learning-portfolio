@@ -12,6 +12,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/README.md",
         "projects/01_quiz_game/README.md",
         "projects/02_number_guessing_game/README.md",
+        "projects/02_number_guessing_game/src/number_guessing_game.py",
+        "projects/03_rock_paper_scissors/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
     ]
@@ -36,6 +38,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/README.md",
         "projects/01_quiz_game/README.md",
         "projects/02_number_guessing_game/README.md",
+        "projects/03_rock_paper_scissors/README.md",
     ]
 
     blocked_terms = [

@@ -1,8 +1,8 @@
 # Project 02 - Number Guessing Game
 
-Status: In progress.
+Status: Completed.
 
-This project is a beginner-friendly command-line number guessing game. The implementation is intentionally not included yet because the project is meant to be written independently as Python practice.
+This project is a beginner-friendly command-line number guessing game. The player chooses an upper bound, the program generates a random secret number, and the player keeps guessing until the correct number is found.
 
 ## Goal
 
@@ -27,9 +27,9 @@ Build a small terminal program that:
 - comparison logic,
 - counting attempts.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/02_number_guessing_game/src/number_guessing_game.py
@@ -40,27 +40,30 @@ python projects/02_number_guessing_game/src/number_guessing_game.py
 Because the secret number is random, the exact run will vary. A valid run should look like this:
 
 ```text
-Type a number: 10
+Welcome to the Number Guessing Game!
+Type a number to set the upper bound for the guessing game: 10
 Make a guess: 5
 You were below the number!
 Make a guess: 8
 You were above the number!
 Make a guess: 7
 You got it!
-You got it in 3 guesses.
+You got it in 3 guesses!
 ```
 
 Invalid upper bound example:
 
 ```text
-Type a number: zero
+Welcome to the Number Guessing Game!
+Type a number to set the upper bound for the guessing game: zero
 Please type a number next time.
 ```
 
 Invalid guess example:
 
 ```text
-Type a number: 10
+Welcome to the Number Guessing Game!
+Type a number to set the upper bound for the guessing game: 10
 Make a guess: abc
 Please type a number next time.
 Make a guess:
@@ -75,3 +78,8 @@ Make a guess:
 - The player receives high/low feedback.
 - The game stops after the correct guess.
 - The final attempt count is shown clearly.
+
+## Notes
+
+- The secret number is random, so high/low feedback varies between runs.
+- Invalid guesses do not count as attempts.
