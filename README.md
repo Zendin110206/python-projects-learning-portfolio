@@ -13,10 +13,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 02 - Number Guessing Game | Complete |
 | Project 03 - Rock, Paper, Scissors | Complete |
 | Project 04 - Choose Your Own Adventure Game | Complete |
-| Project 05 - Password Manager | In progress |
+| Project 05 - Password Manager | Complete |
+| Project 06 - PIG Dice Game | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 04 are implemented and covered by basic automated checks. Project 05 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 05 are implemented and covered by basic automated checks. Project 06 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -54,13 +55,18 @@ Projects 01 through 04 are implemented and covered by basic automated checks. Pr
 │   │   ├── README.md
 │   │   └── src/
 │   │       └── choose_your_own_adventure.py
-│   └── 05_password_manager/
+│   ├── 05_password_manager/
+│   │   ├── README.md
+│   │   └── src/
+│   │       └── password_manager.py
+│   └── 06_pig_dice_game/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
 │   ├── test_project_02_number_guessing_game.py
 │   ├── test_project_03_rock_paper_scissors.py
 │   ├── test_project_04_choose_your_own_adventure.py
+│   ├── test_project_05_password_manager.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml

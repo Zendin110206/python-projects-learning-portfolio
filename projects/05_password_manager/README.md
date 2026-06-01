@@ -1,8 +1,8 @@
 # Project 05 - Password Manager
 
-Status: In progress.
+Status: Completed.
 
-This project is a command-line password manager practice project. It is intended for learning file I/O, simple command modes, and basic encryption workflow. It is not intended to be used as a real production password manager.
+This project is a command-line password manager practice project. It stores account names with encrypted passwords in local ignored files. It is intended for learning file I/O, simple command modes, and basic encryption workflow, not for production password storage.
 
 ## Goal
 
@@ -25,9 +25,9 @@ Build a small terminal program that:
 - command-mode loops,
 - keeping local secret data out of Git.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/05_password_manager/src/password_manager.py
@@ -73,3 +73,9 @@ Goodbye!
 - Password data is written to a local file.
 - Password data is encrypted before it is stored.
 - Generated key and password files are ignored by Git.
+
+## Notes
+
+- Local password data is stored under `projects/05_password_manager/data/`.
+- `key.key` and `passwords.txt` are ignored by Git and should not be committed.
+- This project is for practice only. Do not use it to store real passwords.

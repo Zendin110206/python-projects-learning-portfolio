@@ -18,6 +18,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/04_choose_your_own_adventure/README.md",
         "projects/04_choose_your_own_adventure/src/choose_your_own_adventure.py",
         "projects/05_password_manager/README.md",
+        "projects/05_password_manager/src/password_manager.py",
+        "projects/06_pig_dice_game/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
     ]
@@ -45,6 +47,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/03_rock_paper_scissors/README.md",
         "projects/04_choose_your_own_adventure/README.md",
         "projects/05_password_manager/README.md",
+        "projects/06_pig_dice_game/README.md",
     ]
 
     blocked_terms = [
