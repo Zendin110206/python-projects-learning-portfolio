@@ -5,7 +5,7 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | No. | Project | Level | Planned Folder | Status |
 | ---: | --- | --- | --- | --- |
 | 1 | Quiz Game | Easy | `projects/01_quiz_game/` | Completed |
-| 2 | Number Guessing Game | Easy | `projects/02_number_guessing_game/` | Planned |
+| 2 | Number Guessing Game | Easy | `projects/02_number_guessing_game/` | In Progress |
 | 3 | Rock, Paper, Scissors | Easy | `projects/03_rock_paper_scissors/` | Planned |
 | 4 | Choose Your Own Adventure Game | Easy | `projects/04_choose_your_own_adventure/` | Planned |
 | 5 | Password Manager | Medium | `projects/05_password_manager/` | Planned |
