@@ -18,3 +18,4 @@ Project-specific references should be added only when a project actually starts 
 - Project 01 - Quiz Game reference file: <https://github.com/techwithtim/5-Python-Projects-For-Beginners/blob/main/quiz_game.py>
 - Project 02 - Number Guessing Game reference file: <https://github.com/techwithtim/5-Python-Projects-For-Beginners/blob/main/number_guesser.py>
 - Project 03 - Rock, Paper, Scissors reference file: <https://github.com/techwithtim/5-Python-Projects-For-Beginners/blob/main/rock_paper_scissors.py>
+- Project 04 - Choose Your Own Adventure Game reference file: <https://github.com/techwithtim/5-Python-Projects-For-Beginners/blob/main/choose_your_own_adventure.py>
