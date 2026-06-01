@@ -23,4 +23,5 @@ The exact structure may change for projects that need assets, data, or a differe
 | [03 Rock, Paper, Scissors](03_rock_paper_scissors/README.md) | Completed |
 | [04 Choose Your Own Adventure Game](04_choose_your_own_adventure/README.md) | Completed |
 | [05 Password Manager](05_password_manager/README.md) | Completed |
-| [06 PIG Dice Game](06_pig_dice_game/README.md) | In progress |
+| [06 PIG Dice Game](06_pig_dice_game/README.md) | Completed |
+| [07 Mad Libs Generator](07_madlibs_generator/README.md) | In progress |

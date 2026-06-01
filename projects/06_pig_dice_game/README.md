@@ -1,8 +1,8 @@
 # Project 06 - PIG Dice Game
 
-Status: In progress.
+Status: Completed.
 
-This project is a command-line implementation of the PIG dice game. It is intended for practicing loops, turn-based game state, score tracking, and random dice rolls.
+This project is a command-line implementation of the PIG dice game. It practices loops, turn-based game state, score tracking, and random dice rolls.
 
 ## Goal
 
@@ -27,9 +27,9 @@ Build a terminal program that:
 - score accumulation,
 - finding the maximum score and winning player.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/06_pig_dice_game/src/pig_dice_game.py
@@ -70,3 +70,9 @@ Enter the number of players (2 - 4): 2
 - Choosing not to roll saves the current turn score.
 - The game ends when a player reaches the target score.
 - The winner is printed clearly.
+
+## Notes
+
+- Dice rolls are random, so game output varies between runs.
+- The target score is fixed at `50` for the first implementation.
+- The player count is limited to 2 through 4 players.
