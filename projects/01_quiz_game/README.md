@@ -33,6 +33,39 @@ The exact command will be finalized after the implementation is added. The inten
 python projects/01_quiz_game/src/quiz_game.py
 ```
 
+## Expected Terminal Interaction
+
+Example all-correct run:
+
+```text
+Welcome to the Computer Quiz!
+Do you want to play? yes
+Okay, let's play!
+
+What does CPU stand for? central processing unit
+Correct!
+
+What does GPU stand for? graphics processing unit
+Correct!
+
+What does RAM stand for? random access memory
+Correct!
+
+What does PSU stand for? power supply
+Correct!
+
+You got 4 questions correct.
+You got 100.0%.
+```
+
+Example early exit:
+
+```text
+Welcome to the Computer Quiz!
+Do you want to play? no
+Maybe next time.
+```
+
 ## Completion Checklist
 
 - The game can be run from the terminal.
