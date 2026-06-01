@@ -1,8 +1,8 @@
 # Project 01 - Quiz Game
 
-Status: In progress.
+Status: Completed.
 
-This project is a beginner-friendly command-line quiz game. The implementation is intentionally not included yet because the project is meant to be written independently as Python practice.
+This project is a beginner-friendly command-line quiz game implemented as Python practice.
 
 ## Goal
 
@@ -25,9 +25,7 @@ Build a small terminal program that:
 - simple arithmetic
 - command-line execution
 
-## Planned Run Command
-
-The exact command will be finalized after the implementation is added. The intended shape is:
+## Run Command
 
 ```powershell
 python projects/01_quiz_game/src/quiz_game.py
@@ -39,7 +37,7 @@ Example all-correct run:
 
 ```text
 Welcome to the Computer Quiz!
-Do you want to play? yes
+Do you want to play? (yes / no): yes
 Okay, let's play!
 
 What does CPU stand for? central processing unit
@@ -62,8 +60,8 @@ Example early exit:
 
 ```text
 Welcome to the Computer Quiz!
-Do you want to play? no
-Maybe next time.
+Do you want to play? (yes / no): no
+Maybe next time!
 ```
 
 ## Completion Checklist
@@ -73,4 +71,4 @@ Maybe next time.
 - Answers are checked without being sensitive to uppercase/lowercase input.
 - The final score is shown clearly.
 - The final percentage is calculated correctly.
-- The README is updated when the implementation is complete.
+- Basic behavior is covered by automated tests.

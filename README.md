@@ -9,10 +9,10 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Area | Status |
 | --- | --- |
 | Repository setup | Complete |
-| Project 01 - Quiz Game | In progress |
+| Project 01 - Quiz Game | Complete |
 | Project implementations | Added one project at a time |
 
-Project 01 currently has a public project brief. The source code has not been added yet because the implementation will be completed manually as part of the learning process.
+Project 01 is implemented and covered by basic automated checks.
 
 ## Learning Goals
 
@@ -35,7 +35,9 @@ Project 01 currently has a public project brief. The source code has not been ad
 ├── projects/
 │   ├── README.md
 │   └── 01_quiz_game/
-│       └── README.md
+│       ├── README.md
+│       └── src/
+│           └── quiz_game.py
 ├── tests/
 │   └── test_repository_structure.py
 ├── PROJECTS.md
