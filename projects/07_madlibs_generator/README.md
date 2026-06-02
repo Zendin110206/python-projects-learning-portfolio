@@ -1,8 +1,8 @@
 # Project 07 - Mad Libs Generator
 
-Status: In progress.
+Status: Completed.
 
-This project is a command-line Mad Libs generator. It is intended for practicing file reading, placeholder parsing, dictionaries, string replacement, and clean terminal prompts.
+This project is a command-line Mad Libs generator. It reads a story template, collects words for placeholders, and prints the completed story.
 
 ## Goal
 
@@ -23,9 +23,9 @@ Build a terminal program that:
 - replacing text with `.replace()`,
 - keeping prompts and output easy to read.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/07_madlibs_generator/src/madlibs_generator.py
@@ -55,3 +55,9 @@ Everyone started to dance together, and it became a bright day.
 - Each unique placeholder is requested once.
 - User answers replace every matching placeholder.
 - The completed story is printed clearly.
+
+## Notes
+
+- The story template is stored in `story.txt`.
+- Duplicate placeholders are only requested once.
+- Placeholder prompt order follows the first appearance in the story.

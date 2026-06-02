@@ -22,3 +22,4 @@ Project-specific references should be added only when a project actually starts 
 - Project 05 - Password Manager reference file: <https://github.com/techwithtim/5-Python-Projects-For-Beginners/blob/main/password_manager.py>
 - Project 06 - PIG Dice Game reference file: <https://github.com/techwithtim/3-Mini-Python-Projects/blob/main/project1.py>
 - Project 07 - Mad Libs Generator reference file: <https://github.com/techwithtim/3-Mini-Python-Projects/blob/main/project2.py>
+- Project 08 - Timed Math Challenge reference file: <https://github.com/techwithtim/3-Mini-Python-Projects/blob/main/project3.py>

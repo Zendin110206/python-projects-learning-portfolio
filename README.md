@@ -15,10 +15,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 04 - Choose Your Own Adventure Game | Complete |
 | Project 05 - Password Manager | Complete |
 | Project 06 - PIG Dice Game | Complete |
-| Project 07 - Mad Libs Generator | In progress |
+| Project 07 - Mad Libs Generator | Complete |
+| Project 08 - Timed Math Challenge | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 06 are implemented and covered by basic automated checks. Project 07 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 07 are implemented and covered by basic automated checks. Project 08 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -64,7 +65,12 @@ Projects 01 through 06 are implemented and covered by basic automated checks. Pr
 │   │   ├── README.md
 │   │   └── src/
 │   │       └── pig_dice_game.py
-│   └── 07_madlibs_generator/
+│   ├── 07_madlibs_generator/
+│   │   ├── README.md
+│   │   ├── story.txt
+│   │   └── src/
+│   │       └── madlibs_generator.py
+│   └── 08_timed_math_challenge/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
@@ -73,6 +79,7 @@ Projects 01 through 06 are implemented and covered by basic automated checks. Pr
 │   ├── test_project_04_choose_your_own_adventure.py
 │   ├── test_project_05_password_manager.py
 │   ├── test_project_06_pig_dice_game.py
+│   ├── test_project_07_madlibs_generator.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml
