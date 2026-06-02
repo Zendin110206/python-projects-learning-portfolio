@@ -16,10 +16,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 05 - Password Manager | Complete |
 | Project 06 - PIG Dice Game | Complete |
 | Project 07 - Mad Libs Generator | Complete |
-| Project 08 - Timed Math Challenge | In progress |
+| Project 08 - Timed Math Challenge | Complete |
+| Project 09 - Slot Machine | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 07 are implemented and covered by basic automated checks. Project 08 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 08 are implemented and covered by basic automated checks. Project 09 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -70,7 +71,11 @@ Projects 01 through 07 are implemented and covered by basic automated checks. Pr
 │   │   ├── story.txt
 │   │   └── src/
 │   │       └── madlibs_generator.py
-│   └── 08_timed_math_challenge/
+│   ├── 08_timed_math_challenge/
+│   │   ├── README.md
+│   │   └── src/
+│   │       └── timed_math_challenge.py
+│   └── 09_slot_machine/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
@@ -80,6 +85,7 @@ Projects 01 through 07 are implemented and covered by basic automated checks. Pr
 │   ├── test_project_05_password_manager.py
 │   ├── test_project_06_pig_dice_game.py
 │   ├── test_project_07_madlibs_generator.py
+│   ├── test_project_08_timed_math_challenge.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml

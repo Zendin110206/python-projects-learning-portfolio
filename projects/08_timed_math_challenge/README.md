@@ -1,6 +1,6 @@
 # Project 08 - Timed Math Challenge
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line timed arithmetic challenge. It is intended for practicing random problem generation, timing with Python, loops, validation, and basic performance feedback.
 
@@ -25,9 +25,9 @@ Build a terminal program that:
 - input validation,
 - formatted terminal output.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/08_timed_math_challenge/src/timed_math_challenge.py
@@ -56,3 +56,9 @@ You made 0 incorrect attempts.
 - Incorrect answers are counted.
 - The player retries a problem until the answer is correct.
 - Total elapsed time is printed clearly.
+
+## Notes
+
+- The challenge uses 10 randomly generated problems.
+- Supported operators are addition, subtraction, and multiplication.
+- Incorrect text input is treated as a wrong answer and the same problem is retried.

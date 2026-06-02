@@ -11,8 +11,8 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | 5 | Password Manager | Medium | `projects/05_password_manager/` | Completed |
 | 6 | PIG Dice Game | Medium | `projects/06_pig_dice_game/` | Completed |
 | 7 | Mad Libs Generator | Medium | `projects/07_madlibs_generator/` | Completed |
-| 8 | Timed Math Challenge | Medium | `projects/08_timed_math_challenge/` | In Progress |
-| 9 | Slot Machine | Medium | `projects/09_slot_machine/` | Planned |
+| 8 | Timed Math Challenge | Medium | `projects/08_timed_math_challenge/` | Completed |
+| 9 | Slot Machine | Medium | `projects/09_slot_machine/` | In Progress |
 | 10 | Turtle Racing | Medium | `projects/10_turtle_racing/` | Planned |
 | 11 | WPM Typing Test | Medium | `projects/11_wpm_typing_test/` | Planned |
 | 12 | Alarm Clock | Easy | `projects/12_alarm_clock/` | Planned |

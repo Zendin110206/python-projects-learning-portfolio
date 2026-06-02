@@ -25,4 +25,5 @@ The exact structure may change for projects that need assets, data, or a differe
 | [05 Password Manager](05_password_manager/README.md) | Completed |
 | [06 PIG Dice Game](06_pig_dice_game/README.md) | Completed |
 | [07 Mad Libs Generator](07_madlibs_generator/README.md) | Completed |
-| [08 Timed Math Challenge](08_timed_math_challenge/README.md) | In progress |
+| [08 Timed Math Challenge](08_timed_math_challenge/README.md) | Completed |
+| [09 Slot Machine](09_slot_machine/README.md) | In progress |

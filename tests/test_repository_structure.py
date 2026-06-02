@@ -25,6 +25,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/07_madlibs_generator/src/madlibs_generator.py",
         "projects/07_madlibs_generator/story.txt",
         "projects/08_timed_math_challenge/README.md",
+        "projects/08_timed_math_challenge/src/timed_math_challenge.py",
+        "projects/09_slot_machine/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
     ]
@@ -55,6 +57,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/06_pig_dice_game/README.md",
         "projects/07_madlibs_generator/README.md",
         "projects/08_timed_math_challenge/README.md",
+        "projects/09_slot_machine/README.md",
     ]
 
     blocked_terms = [
