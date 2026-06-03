@@ -13,8 +13,8 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | 7 | Mad Libs Generator | Medium | `projects/07_madlibs_generator/` | Completed |
 | 8 | Timed Math Challenge | Medium | `projects/08_timed_math_challenge/` | Completed |
 | 9 | Slot Machine | Medium | `projects/09_slot_machine/` | Completed |
-| 10 | Turtle Racing | Medium | `projects/10_turtle_racing/` | In Progress |
-| 11 | WPM Typing Test | Medium | `projects/11_wpm_typing_test/` | Planned |
+| 10 | Turtle Racing | Medium | `projects/10_turtle_racing/` | Completed |
+| 11 | WPM Typing Test | Medium | `projects/11_wpm_typing_test/` | In Progress |
 | 12 | Alarm Clock | Easy | `projects/12_alarm_clock/` | Planned |
 | 13 | Password Generator | Easy | `projects/13_password_generator/` | Planned |
 | 14 | Shortest Path Finder | Advanced | `projects/14_shortest_path_finder/` | Planned |

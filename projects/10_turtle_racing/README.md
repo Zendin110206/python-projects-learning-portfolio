@@ -1,6 +1,6 @@
 # Project 10 - Turtle Racing
 
-Status: In progress.
+Status: Completed.
 
 This project is a graphical turtle racing simulation. It is intended for practicing Python's `turtle` module, random movement, coordinate-based race logic, and simple visual program structure.
 
@@ -26,9 +26,9 @@ Build a program that:
 - loops for creating and moving racers,
 - detecting a winner with turtle coordinates.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/10_turtle_racing/src/turtle_racing.py
@@ -54,3 +54,9 @@ The visual race should show multiple colored turtles moving across the screen un
 - Each racer moves by a random distance.
 - The race stops when a winner reaches the finish line.
 - The winner is printed clearly.
+
+## Notes
+
+- The race uses Python's built-in `turtle` graphics module.
+- The turtle window is opened only when the program is run directly.
+- The visual result is random because each racer moves by a random distance.
