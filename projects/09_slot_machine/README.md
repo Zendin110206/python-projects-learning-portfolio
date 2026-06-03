@@ -1,6 +1,6 @@
 # Project 09 - Slot Machine
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line slot machine game. It is intended for practicing random weighted outcomes, input validation, balance tracking, betting rules, and small reusable functions.
 
@@ -27,9 +27,9 @@ Build a terminal program that:
 - reusable functions for game steps,
 - clear terminal formatting.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/09_slot_machine/src/slot_machine.py
@@ -52,6 +52,9 @@ C | C | C
 B | D | A
 You won $15.
 You won on lines: 2
+Current balance is $105.
+Press enter to play (q to quit).q
+You left with $105.
 ```
 
 ## Completion Checklist
@@ -65,3 +68,10 @@ You won on lines: 2
 - Winning lines are checked correctly.
 - Balance changes after each spin.
 - The player can quit cleanly.
+
+## Notes
+
+- The game uses virtual money only.
+- Supported symbols are `A`, `B`, `C`, and `D`.
+- The slot machine uses three rows and three columns.
+- The player can bet on one to three lines per spin.

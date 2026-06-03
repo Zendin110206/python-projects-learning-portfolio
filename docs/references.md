@@ -24,3 +24,5 @@ Project-specific references should be added only when a project actually starts 
 - Project 07 - Mad Libs Generator reference file: <https://github.com/techwithtim/3-Mini-Python-Projects/blob/main/project2.py>
 - Project 08 - Timed Math Challenge reference file: <https://github.com/techwithtim/3-Mini-Python-Projects/blob/main/project3.py>
 - Project 09 - Slot Machine reference repository: <https://github.com/techwithtim/Python-Slot-Machine>
+- Project 10 - Turtle Racing reference repository: <https://github.com/techwithtim/Turtle-Race>
+- Project 10 - Python turtle documentation: <https://docs.python.org/3/library/turtle.html>
