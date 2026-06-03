@@ -1,0 +1,4 @@
+Typing helps build accuracy before speed.
+Python projects are easier when practiced step by step.
+Clean code is readable code.
+Terminal apps can still feel interactive.

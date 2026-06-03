@@ -1,6 +1,6 @@
 # Project 11 - WPM Typing Test
 
-Status: In progress.
+Status: Completed.
 
 This project is a terminal-based words-per-minute typing test. It is intended for practicing text loading, real-time keyboard input, terminal display updates, timing, accuracy feedback, and WPM calculation.
 
@@ -28,9 +28,9 @@ Build a terminal program that:
 - backspace handling,
 - separating display logic from calculation logic.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/11_wpm_typing_test/src/wpm_typing_test.py
@@ -57,3 +57,9 @@ During a test, the terminal should show the target text, typed characters, and a
 - Incorrect characters are visually marked.
 - The user can complete a prompt and start another round.
 - The user can exit cleanly.
+
+## Notes
+
+- Typing prompts are stored in `text.txt`.
+- The terminal interface uses Python's `curses` module.
+- On Windows, install the development dependencies before running the project so the `windows-curses` package is available.

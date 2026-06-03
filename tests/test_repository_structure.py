@@ -31,6 +31,9 @@ def test_required_repository_docs_exist() -> None:
         "projects/10_turtle_racing/README.md",
         "projects/10_turtle_racing/src/turtle_racing.py",
         "projects/11_wpm_typing_test/README.md",
+        "projects/11_wpm_typing_test/src/wpm_typing_test.py",
+        "projects/11_wpm_typing_test/text.txt",
+        "projects/12_alarm_clock/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
     ]
@@ -64,6 +67,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/09_slot_machine/README.md",
         "projects/10_turtle_racing/README.md",
         "projects/11_wpm_typing_test/README.md",
+        "projects/12_alarm_clock/README.md",
     ]
 
     blocked_terms = [

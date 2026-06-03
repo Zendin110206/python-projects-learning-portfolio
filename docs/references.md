@@ -28,3 +28,5 @@ Project-specific references should be added only when a project actually starts 
 - Project 10 - Python turtle documentation: <https://docs.python.org/3/library/turtle.html>
 - Project 11 - WPM Typing Test reference repository: <https://github.com/techwithtim/WPM_Typing_Test>
 - Project 11 - Python curses HOWTO: <https://docs.python.org/3/howto/curses.html>
+- Project 12 - Python time documentation: <https://docs.python.org/3/library/time.html>
+- Project 12 - Python datetime documentation: <https://docs.python.org/3/library/datetime.html>
