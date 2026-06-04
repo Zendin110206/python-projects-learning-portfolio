@@ -30,3 +30,5 @@ Project-specific references should be added only when a project actually starts 
 - Project 11 - Python curses HOWTO: <https://docs.python.org/3/howto/curses.html>
 - Project 12 - Python time documentation: <https://docs.python.org/3/library/time.html>
 - Project 12 - Python datetime documentation: <https://docs.python.org/3/library/datetime.html>
+- Project 13 - Python secrets documentation: <https://docs.python.org/3/library/secrets.html>
+- Project 13 - Python string documentation: <https://docs.python.org/3/library/string.html>

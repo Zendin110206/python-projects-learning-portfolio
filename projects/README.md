@@ -29,4 +29,5 @@ The exact structure may change for projects that need assets, data, or a differe
 | [09 Slot Machine](09_slot_machine/README.md) | Completed |
 | [10 Turtle Racing](10_turtle_racing/README.md) | Completed |
 | [11 WPM Typing Test](11_wpm_typing_test/README.md) | Completed |
-| [12 Alarm Clock](12_alarm_clock/README.md) | In progress |
+| [12 Alarm Clock](12_alarm_clock/README.md) | Completed |
+| [13 Password Generator](13_password_generator/README.md) | In progress |

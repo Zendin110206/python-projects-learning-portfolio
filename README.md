@@ -20,10 +20,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 09 - Slot Machine | Complete |
 | Project 10 - Turtle Racing | Complete |
 | Project 11 - WPM Typing Test | Complete |
-| Project 12 - Alarm Clock | In progress |
+| Project 12 - Alarm Clock | Complete |
+| Project 13 - Password Generator | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 11 are implemented and covered by basic automated checks. Project 12 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 12 are implemented and covered by basic automated checks. Project 13 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -91,7 +92,11 @@ Projects 01 through 11 are implemented and covered by basic automated checks. Pr
 │   │   ├── text.txt
 │   │   └── src/
 │   │       └── wpm_typing_test.py
-│   └── 12_alarm_clock/
+│   ├── 12_alarm_clock/
+│   │   ├── README.md
+│   │   └── src/
+│   │       └── alarm_clock.py
+│   └── 13_password_generator/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
@@ -105,6 +110,7 @@ Projects 01 through 11 are implemented and covered by basic automated checks. Pr
 │   ├── test_project_09_slot_machine.py
 │   ├── test_project_10_turtle_racing.py
 │   ├── test_project_11_wpm_typing_test.py
+│   ├── test_project_12_alarm_clock.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml

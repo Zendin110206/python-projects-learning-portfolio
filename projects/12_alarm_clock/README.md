@@ -1,6 +1,6 @@
 # Project 12 - Alarm Clock
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line alarm clock. It is intended for practicing time parsing, input validation, countdown logic, and clear terminal feedback.
 
@@ -25,9 +25,9 @@ Build a terminal program that:
 - formatting seconds as `HH:MM:SS`,
 - keeping terminal output understandable.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/12_alarm_clock/src/alarm_clock.py
@@ -57,3 +57,9 @@ Wake up! Alarm finished.
 - Remaining time is formatted as `HH:MM:SS`.
 - The countdown updates once per second.
 - A clear final alarm message is printed.
+
+## Notes
+
+- Alarm input represents a duration, not a specific clock time.
+- The countdown displays remaining time from the selected duration down to one second.
+- The implementation is intentionally terminal-only for the first version.
