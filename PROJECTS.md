@@ -16,8 +16,8 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | 10 | Turtle Racing | Medium | `projects/10_turtle_racing/` | Completed |
 | 11 | WPM Typing Test | Medium | `projects/11_wpm_typing_test/` | Completed |
 | 12 | Alarm Clock | Easy | `projects/12_alarm_clock/` | Completed |
-| 13 | Password Generator | Easy | `projects/13_password_generator/` | In Progress |
-| 14 | Shortest Path Finder | Advanced | `projects/14_shortest_path_finder/` | Planned |
+| 13 | Password Generator | Easy | `projects/13_password_generator/` | Completed |
+| 14 | Shortest Path Finder | Advanced | `projects/14_shortest_path_finder/` | In Progress |
 | 15 | NBA Stats and Current Scores | Medium | `projects/15_nba_stats_current_scores/` | Planned |
 | 16 | Currency Converter | Medium | `projects/16_currency_converter/` | Planned |
 | 17 | YouTube Video Downloader | Medium | `projects/17_youtube_video_downloader/` | Planned |

@@ -32,3 +32,6 @@ Project-specific references should be added only when a project actually starts 
 - Project 12 - Python datetime documentation: <https://docs.python.org/3/library/datetime.html>
 - Project 13 - Python secrets documentation: <https://docs.python.org/3/library/secrets.html>
 - Project 13 - Python string documentation: <https://docs.python.org/3/library/string.html>
+- Project 14 - Shortest Path Finder reference file: <https://github.com/techwithtim/3-Mini-Python-Projects-For-Intermediates/blob/main/path-finder.py>
+- Project 14 - Python queue documentation: <https://docs.python.org/3/library/queue.html>
+- Project 14 - Python curses HOWTO: <https://docs.python.org/3/howto/curses.html>

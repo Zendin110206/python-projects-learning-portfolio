@@ -1,6 +1,6 @@
 # Project 13 - Password Generator
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line password generator. It is intended for practicing secure random selection, character sets, input validation, password length rules, and clear terminal output.
 
@@ -26,9 +26,9 @@ Build a terminal program that:
 - shuffling generated characters,
 - keeping security-related code readable.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/13_password_generator/src/password_generator.py
@@ -55,3 +55,9 @@ Generated password: aB7#xP2!mQ9z
 - Selected character groups are included in the generated password.
 - The generated password has the requested length.
 - Secure randomness is used for password generation.
+
+## Notes
+
+- Lowercase letters are always included.
+- Uppercase letters, numbers, and symbols are optional user choices.
+- The first version prints one generated password and does not store it.
