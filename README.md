@@ -23,10 +23,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 12 - Alarm Clock | Complete |
 | Project 13 - Password Generator | Complete |
 | Project 14 - Shortest Path Finder | Complete |
-| Project 15 - Expense Tracker | In progress |
+| Project 15 - Expense Tracker | Complete |
+| Project 16 - Currency Converter | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 14 are implemented and covered by basic automated checks. Project 15 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 15 are implemented and covered by basic automated checks. Project 16 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -106,7 +107,11 @@ Projects 01 through 14 are implemented and covered by basic automated checks. Pr
 │   │   ├── README.md
 │   │   └── src/
 │   │       └── shortest_path_finder.py
-│   └── 15_expense_tracker/
+│   ├── 15_expense_tracker/
+│   │   ├── README.md
+│   │   └── src/
+│   │       └── expense_tracker.py
+│   └── 16_currency_converter/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
@@ -123,6 +128,7 @@ Projects 01 through 14 are implemented and covered by basic automated checks. Pr
 │   ├── test_project_12_alarm_clock.py
 │   ├── test_project_13_password_generator.py
 │   ├── test_project_14_shortest_path_finder.py
+│   ├── test_project_15_expense_tracker.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml

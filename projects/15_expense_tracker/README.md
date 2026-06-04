@@ -1,6 +1,6 @@
 # Project 15 - Expense Tracker
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line expense tracker. It is intended for practicing file I/O, CSV data storage, input validation, date handling, numeric parsing, and summary reporting.
 
@@ -26,9 +26,9 @@ Build a terminal program that:
 - aggregating records by category,
 - keeping storage, formatting, and menu logic readable.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/15_expense_tracker/src/expense_tracker.py
@@ -61,3 +61,4 @@ Invalid input should be rejected with clear messages, and the program should not
 - The first version uses local CSV storage only.
 - Runtime data files should stay out of version control.
 - This project intentionally avoids live APIs so the exercise remains stable and repeatable.
+- The CSV file is created locally at runtime when the program starts.
