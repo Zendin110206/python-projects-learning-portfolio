@@ -38,9 +38,12 @@ def test_required_repository_docs_exist() -> None:
         "projects/13_password_generator/README.md",
         "projects/13_password_generator/src/password_generator.py",
         "projects/14_shortest_path_finder/README.md",
+        "projects/14_shortest_path_finder/src/shortest_path_finder.py",
+        "projects/15_nba_stats_current_scores/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
+        "tests/test_project_14_shortest_path_finder.py",
     ]
 
     missing = [path for path in required_paths if not (ROOT / path).is_file()]
@@ -75,6 +78,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/12_alarm_clock/README.md",
         "projects/13_password_generator/README.md",
         "projects/14_shortest_path_finder/README.md",
+        "projects/15_nba_stats_current_scores/README.md",
     ]
 
     blocked_terms = [

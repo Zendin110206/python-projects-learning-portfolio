@@ -1,4 +1,5 @@
 pytest>=8.0
 ruff>=0.8.0
 cryptography>=42.0
+nba_api>=1.11.4
 windows-curses>=2.4; platform_system == "Windows"

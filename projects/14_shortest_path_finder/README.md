@@ -1,6 +1,6 @@
 # Project 14 - Shortest Path Finder
 
-Status: In progress.
+Status: Completed.
 
 This project is a terminal-based shortest path finder. It is intended for practicing grid traversal, breadth-first search, queues, coordinate handling, and terminal visualization.
 
@@ -25,9 +25,9 @@ Build a terminal program that:
 - `curses`-based terminal drawing,
 - keeping visualization code separate from pathfinding logic where practical.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/14_shortest_path_finder/src/shortest_path_finder.py
@@ -57,3 +57,4 @@ The program should open a terminal-based maze display. A valid run should:
 - The first version uses a static maze.
 - The first version is terminal-only and does not include a maze editor.
 - Breadth-first search is appropriate here because every valid move has equal cost.
+- The terminal window waits for a key press before closing after the search finishes.
