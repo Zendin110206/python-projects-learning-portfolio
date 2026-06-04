@@ -39,7 +39,7 @@ def test_required_repository_docs_exist() -> None:
         "projects/13_password_generator/src/password_generator.py",
         "projects/14_shortest_path_finder/README.md",
         "projects/14_shortest_path_finder/src/shortest_path_finder.py",
-        "projects/15_nba_stats_current_scores/README.md",
+        "projects/15_expense_tracker/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
@@ -56,6 +56,12 @@ def test_local_notes_are_not_tracked_by_default() -> None:
     ignored_notes_dir = "/" + "local" + "_" + "context" + "/"
 
     assert ignored_notes_dir in gitignore
+
+
+def test_runtime_practice_data_is_not_tracked_by_default() -> None:
+    gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
+
+    assert "projects/15_expense_tracker/data/*.csv" in gitignore
 
 
 def test_public_docs_use_neutral_wording() -> None:
@@ -78,7 +84,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/12_alarm_clock/README.md",
         "projects/13_password_generator/README.md",
         "projects/14_shortest_path_finder/README.md",
-        "projects/15_nba_stats_current_scores/README.md",
+        "projects/15_expense_tracker/README.md",
     ]
 
     blocked_terms = [

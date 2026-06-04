@@ -37,3 +37,6 @@ outputs/
 # Local password-manager practice data
 projects/05_password_manager/data/*.key
 projects/05_password_manager/data/*.txt
+
+# Local expense-tracker practice data
+projects/15_expense_tracker/data/*.csv

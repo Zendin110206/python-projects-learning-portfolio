@@ -32,4 +32,4 @@ The exact structure may change for projects that need assets, data, or a differe
 | [12 Alarm Clock](12_alarm_clock/README.md) | Completed |
 | [13 Password Generator](13_password_generator/README.md) | Completed |
 | [14 Shortest Path Finder](14_shortest_path_finder/README.md) | Completed |
-| [15 NBA Stats and Current Scores](15_nba_stats_current_scores/README.md) | In progress |
+| [15 Expense Tracker](15_expense_tracker/README.md) | In progress |

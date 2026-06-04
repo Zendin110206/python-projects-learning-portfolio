@@ -35,6 +35,6 @@ Project-specific references should be added only when a project actually starts 
 - Project 14 - Shortest Path Finder reference file: <https://github.com/techwithtim/3-Mini-Python-Projects-For-Intermediates/blob/main/path-finder.py>
 - Project 14 - Python queue documentation: <https://docs.python.org/3/library/queue.html>
 - Project 14 - Python curses HOWTO: <https://docs.python.org/3/howto/curses.html>
-- Project 15 - NBA Stats and Current Scores reference file: <https://github.com/techwithtim/3-Mini-Python-Projects-For-Intermediates/blob/main/nba-scores.py>
-- Project 15 - nba_api documentation: <https://github.com/swar/nba_api>
-- Project 15 - nba_api package: <https://pypi.org/project/nba_api/>
+- Project 15 - Python csv documentation: <https://docs.python.org/3/library/csv.html>
+- Project 15 - Python datetime documentation: <https://docs.python.org/3/library/datetime.html>
+- Project 15 - Python pathlib documentation: <https://docs.python.org/3/library/pathlib.html>
