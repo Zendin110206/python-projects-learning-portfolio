@@ -2,27 +2,29 @@
 
 Status: In progress.
 
-This project is a command-line currency converter. It is intended for practicing dictionary-based lookup, decimal arithmetic, input validation, menu commands, and clear terminal formatting.
+This project is a command-line currency converter. It is intended for practicing API requests, JSON parsing, decimal arithmetic, input validation, menu commands, and clear terminal formatting.
 
 ## Goal
 
 Build a terminal program that:
 
 - shows a simple command menu,
-- lists supported currencies,
+- fetches supported currencies from a public exchange-rate API,
 - converts an amount from one currency to another,
 - shows an exchange rate between two currencies,
 - validates currency codes and amounts,
+- handles API failures clearly,
 - exits cleanly.
 
 ## Learning Focus
 
-- storing rates in dictionaries,
+- making HTTP GET requests with `requests`,
+- parsing JSON API responses,
 - validating command input,
 - normalizing currency codes,
 - using `Decimal` for money values,
 - formatting converted amounts,
-- keeping conversion logic separate from terminal interaction.
+- keeping API, conversion, and terminal logic separate.
 
 ## Planned Run Command
 
@@ -41,19 +43,20 @@ A valid run should show commands for:
 - checking a rate,
 - quitting the program.
 
-Invalid commands, currency codes, and amounts should be rejected with clear messages.
+Invalid commands, currency codes, amounts, and API failures should be handled with clear messages.
 
 ## Completion Checklist
 
 - The program can be run from the terminal.
-- Supported currencies can be listed.
+- Supported currencies can be fetched and listed.
 - Currency codes are validated.
 - Amount input is validated as a positive finite number.
 - Conversion uses decimal arithmetic.
-- Exchange rates are calculated correctly from the local rate table.
-- Formatting and conversion logic are covered by tests where practical.
+- Exchange rates are fetched from the API and parsed correctly.
+- API failures are handled without tracebacks.
+- Formatting and parsing logic are covered by tests where practical.
 
 ## Notes
 
-- The first version uses a local exchange-rate table so the exercise remains stable and repeatable.
-- Live exchange-rate APIs can be explored later as an optional improvement.
+- The first version uses the Frankfurter exchange-rate API, which does not require an API key.
+- Automated tests should mock API responses so the test suite remains stable.

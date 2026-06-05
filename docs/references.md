@@ -39,4 +39,6 @@ Project-specific references should be added only when a project actually starts 
 - Project 15 - Python datetime documentation: <https://docs.python.org/3/library/datetime.html>
 - Project 15 - Python pathlib documentation: <https://docs.python.org/3/library/pathlib.html>
 - Project 16 - Currency Converter reference file: <https://github.com/techwithtim/3-Mini-Python-Projects-For-Intermediates/blob/main/currency-converter.py>
+- Project 16 - Frankfurter API documentation: <https://frankfurter.dev/docs/>
+- Project 16 - Requests documentation: <https://requests.readthedocs.io/en/master/user/quickstart/>
 - Project 16 - Python decimal documentation: <https://docs.python.org/3/library/decimal.html>
