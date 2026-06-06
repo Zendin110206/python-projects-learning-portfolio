@@ -42,3 +42,6 @@ Project-specific references should be added only when a project actually starts 
 - Project 16 - Frankfurter API documentation: <https://frankfurter.dev/docs/>
 - Project 16 - Requests documentation: <https://requests.readthedocs.io/en/master/user/quickstart/>
 - Project 16 - Python decimal documentation: <https://docs.python.org/3/library/decimal.html>
+- Project 17 - YouTube Video Downloader reference file: <https://github.com/techwithtim/Python-Beginner-Automation-Projects/blob/main/youtube.py>
+- Project 17 - pytubefix documentation: <https://pytubefix.readthedocs.io/>
+- Project 17 - Python tkinter documentation: <https://docs.python.org/3/library/tkinter.html>

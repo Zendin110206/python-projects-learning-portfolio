@@ -40,3 +40,6 @@ projects/05_password_manager/data/*.txt
 
 # Local expense-tracker practice data
 projects/15_expense_tracker/data/*.csv
+
+# Local YouTube downloader runtime output
+projects/17_youtube_video_downloader/downloads/

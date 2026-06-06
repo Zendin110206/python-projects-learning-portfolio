@@ -1,6 +1,6 @@
 # Project 16 - Currency Converter
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line currency converter. It is intended for practicing API requests, JSON parsing, decimal arithmetic, input validation, menu commands, and clear terminal formatting.
 
@@ -26,9 +26,9 @@ Build a terminal program that:
 - formatting converted amounts,
 - keeping API, conversion, and terminal logic separate.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/16_currency_converter/src/currency_converter.py
@@ -60,3 +60,4 @@ Invalid commands, currency codes, amounts, and API failures should be handled wi
 
 - The first version uses the Frankfurter exchange-rate API, which does not require an API key.
 - Automated tests should mock API responses so the test suite remains stable.
+- API failures are handled with a clear terminal message instead of a traceback.

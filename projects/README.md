@@ -33,4 +33,5 @@ The exact structure may change for projects that need assets, data, or a differe
 | [13 Password Generator](13_password_generator/README.md) | Completed |
 | [14 Shortest Path Finder](14_shortest_path_finder/README.md) | Completed |
 | [15 Expense Tracker](15_expense_tracker/README.md) | Completed |
-| [16 Currency Converter](16_currency_converter/README.md) | In progress |
+| [16 Currency Converter](16_currency_converter/README.md) | Completed |
+| [17 YouTube Video Downloader](17_youtube_video_downloader/README.md) | In progress |
