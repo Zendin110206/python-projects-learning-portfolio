@@ -1,6 +1,6 @@
 # Project 17 - YouTube Video Downloader
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line YouTube video downloader with a local folder picker. It is intended for practicing third-party libraries, stream selection, GUI file dialogs, path handling, and defensive error handling around external services.
 
@@ -23,9 +23,9 @@ Build a small program that:
 - avoiding tracebacks for normal runtime failures,
 - testing downloader logic with mocks instead of downloading live videos.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/17_youtube_video_downloader/src/youtube_video_downloader.py
@@ -52,3 +52,4 @@ Invalid URLs, unavailable videos, cancelled folder selection, missing downloadab
 - The first version uses `pytubefix` instead of the older `pytube` package.
 - Downloaded video files are local runtime output and should stay out of version control.
 - This exercise is intended only for videos the user owns or has permission to download.
+- Automated tests mock the YouTube object, stream selection, and folder picker.

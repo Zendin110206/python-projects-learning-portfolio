@@ -25,10 +25,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 14 - Shortest Path Finder | Complete |
 | Project 15 - Expense Tracker | Complete |
 | Project 16 - Currency Converter | Complete |
-| Project 17 - YouTube Video Downloader | In progress |
+| Project 17 - YouTube Video Downloader | Complete |
+| Project 18 - Automated File Backup | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 16 are implemented and covered by basic automated checks. Project 17 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 17 are implemented and covered by basic automated checks. Project 18 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -116,7 +117,11 @@ Projects 01 through 16 are implemented and covered by basic automated checks. Pr
 │   │   ├── README.md
 │   │   └── src/
 │   │       └── currency_converter.py
-│   └── 17_youtube_video_downloader/
+│   ├── 17_youtube_video_downloader/
+│   │   ├── README.md
+│   │   └── src/
+│   │       └── youtube_video_downloader.py
+│   └── 18_automated_file_backup/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
@@ -135,6 +140,7 @@ Projects 01 through 16 are implemented and covered by basic automated checks. Pr
 │   ├── test_project_14_shortest_path_finder.py
 │   ├── test_project_15_expense_tracker.py
 │   ├── test_project_16_currency_converter.py
+│   ├── test_project_17_youtube_video_downloader.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml

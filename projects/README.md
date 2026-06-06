@@ -34,4 +34,5 @@ The exact structure may change for projects that need assets, data, or a differe
 | [14 Shortest Path Finder](14_shortest_path_finder/README.md) | Completed |
 | [15 Expense Tracker](15_expense_tracker/README.md) | Completed |
 | [16 Currency Converter](16_currency_converter/README.md) | Completed |
-| [17 YouTube Video Downloader](17_youtube_video_downloader/README.md) | In progress |
+| [17 YouTube Video Downloader](17_youtube_video_downloader/README.md) | Completed |
+| [18 Automated File Backup](18_automated_file_backup/README.md) | In progress |

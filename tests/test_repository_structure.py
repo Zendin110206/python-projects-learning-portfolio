@@ -44,12 +44,15 @@ def test_required_repository_docs_exist() -> None:
         "projects/16_currency_converter/README.md",
         "projects/16_currency_converter/src/currency_converter.py",
         "projects/17_youtube_video_downloader/README.md",
+        "projects/17_youtube_video_downloader/src/youtube_video_downloader.py",
+        "projects/18_automated_file_backup/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
         "tests/test_project_14_shortest_path_finder.py",
         "tests/test_project_15_expense_tracker.py",
         "tests/test_project_16_currency_converter.py",
+        "tests/test_project_17_youtube_video_downloader.py",
     ]
 
     missing = [path for path in required_paths if not (ROOT / path).is_file()]
@@ -69,6 +72,8 @@ def test_runtime_practice_data_is_not_tracked_by_default() -> None:
 
     assert "projects/15_expense_tracker/data/*.csv" in gitignore
     assert "projects/17_youtube_video_downloader/downloads/" in gitignore
+    assert "projects/18_automated_file_backup/source/" in gitignore
+    assert "projects/18_automated_file_backup/backups/" in gitignore
 
 
 def test_public_docs_use_neutral_wording() -> None:
@@ -94,6 +99,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/15_expense_tracker/README.md",
         "projects/16_currency_converter/README.md",
         "projects/17_youtube_video_downloader/README.md",
+        "projects/18_automated_file_backup/README.md",
     ]
 
     blocked_terms = [

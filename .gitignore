@@ -43,3 +43,7 @@ projects/15_expense_tracker/data/*.csv
 
 # Local YouTube downloader runtime output
 projects/17_youtube_video_downloader/downloads/
+
+# Local automated-backup practice data
+projects/18_automated_file_backup/source/
+projects/18_automated_file_backup/backups/
