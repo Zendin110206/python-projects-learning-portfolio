@@ -1,6 +1,6 @@
 # Projects
 
-Project folders are added here one at a time as each exercise starts.
+Project folders are organized here in the order they were completed.
 
 Expected folder convention:
 
@@ -38,4 +38,4 @@ The exact structure may change for projects that need assets, data, or a differe
 | [18 Automated File Backup](18_automated_file_backup/README.md) | Completed |
 | [19 Mastermind / 4 Color Match](19_mastermind_color_match/README.md) | Completed |
 | [20 Aim Trainer](20_aim_trainer/README.md) | Completed |
-| [21 Advanced Python Scripting](21_advanced_python_scripting/README.md) | In progress |
+| [21 Advanced Python Scripting](21_advanced_python_scripting/README.md) | Completed |

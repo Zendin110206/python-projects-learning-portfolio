@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Python Projects Learning Portfolio preview</title>
+  <desc id="desc">A portfolio preview showing completed Python projects, an aim trainer scene, and a terminal automation output.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e0f2fe" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.16" />
+    </filter>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="url(#background)" />
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="70" width="500" height="360" rx="18" fill="#ffffff" />
+    <rect x="70" y="70" width="500" height="80" rx="18" fill="#0f172a" />
+    <text x="110" y="120" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#ffffff">21 Python Projects</text>
+    <text x="110" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#334155">A complete learning portfolio with tests, linting,</text>
+    <text x="110" y="215" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#334155">documentation, and GitHub Actions CI.</text>
+
+    <g font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">
+      <rect x="110" y="260" width="116" height="42" rx="21" fill="#dbeafe" />
+      <text x="137" y="287" fill="#1d4ed8">CLI Apps</text>
+      <rect x="240" y="260" width="150" height="42" rx="21" fill="#dcfce7" />
+      <text x="268" y="287" fill="#166534">Automation</text>
+      <rect x="405" y="260" width="78" height="42" rx="21" fill="#fef3c7" />
+      <text x="431" y="287" fill="#92400e">APIs</text>
+      <rect x="110" y="320" width="116" height="42" rx="21" fill="#fee2e2" />
+      <text x="139" y="347" fill="#991b1b">Games</text>
+      <rect x="240" y="320" width="115" height="42" rx="21" fill="#f3e8ff" />
+      <text x="270" y="347" fill="#6b21a8">Pygame</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="635" y="70" width="410" height="220" rx="18" fill="#082f49" />
+    <rect x="635" y="70" width="410" height="42" rx="18" fill="#0ea5e9" />
+    <text x="660" y="99" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Project 20 - Aim Trainer</text>
+    <circle cx="835" cy="188" r="64" fill="#ef4444" />
+    <circle cx="835" cy="188" r="48" fill="#f8fafc" />
+    <circle cx="835" cy="188" r="32" fill="#ef4444" />
+    <circle cx="835" cy="188" r="16" fill="#f8fafc" />
+    <text x="675" y="256" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#e0f2fe">Time: 00:10.0</text>
+    <text x="815" y="256" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#e0f2fe">Hits: 5</text>
+    <text x="920" y="256" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#e0f2fe">Lives: 2</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="635" y="315" width="410" height="160" rx="18" fill="#111827" />
+    <circle cx="665" cy="343" r="6" fill="#ef4444" />
+    <circle cx="685" cy="343" r="6" fill="#f59e0b" />
+    <circle cx="705" cy="343" r="6" fill="#22c55e" />
+    <text x="665" y="377" font-family="Consolas, Menlo, monospace" font-size="17" fill="#e5e7eb">Advanced Python Scripting - Game Packager</text>
+    <text x="665" y="407" font-family="Consolas, Menlo, monospace" font-size="17" fill="#bfdbfe">Found 2 game folder(s).</text>
+    <text x="665" y="437" font-family="Consolas, Menlo, monospace" font-size="17" fill="#bbf7d0">Copied: pong</text>
+    <text x="665" y="467" font-family="Consolas, Menlo, monospace" font-size="17" fill="#bbf7d0">Copied: snake</text>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 # Project 21 - Advanced Python Scripting
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line automation script for packaging local game folders. It is intended for practicing command-line arguments, directory scanning, folder copying, JSON metadata generation, dry-run workflows, and optional subprocess execution.
 
@@ -26,12 +26,18 @@ Build a terminal script that:
 - using `subprocess.run` defensively,
 - keeping CLI parsing, file operations, metadata, and terminal output separate.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/21_advanced_python_scripting/src/advanced_python_scripting.py --source SOURCE --destination DESTINATION
+```
+
+Dry-run example:
+
+```powershell
+python projects/21_advanced_python_scripting/src/advanced_python_scripting.py --source projects/21_advanced_python_scripting/source --destination projects/21_advanced_python_scripting/output --dry-run
 ```
 
 ## Expected Terminal Behavior
@@ -39,6 +45,17 @@ python projects/21_advanced_python_scripting/src/advanced_python_scripting.py --
 A valid run should print a short header, show how many game folders were found, copy each game folder, write metadata, and finish with a clear success message.
 
 Invalid source folders, empty results, copy failures, metadata failures, and optional subprocess failures should be handled with clear messages.
+
+Example successful output:
+
+```text
+Advanced Python Scripting - Game Packager
+Found 2 game folder(s).
+Copied: pong
+Copied: snake
+Metadata written: projects\21_advanced_python_scripting\output\metadata.json
+Done.
+```
 
 ## Completion Checklist
 
@@ -57,3 +74,4 @@ Invalid source folders, empty results, copy failures, metadata failures, and opt
 - This project uses only the Python standard library.
 - Local source and output folders should stay out of version control.
 - Go compilation is optional and should not be required for the default run.
+- Automated tests cover CLI parsing, game-folder detection, dry-run behavior, copying, metadata generation, and subprocess outcomes.

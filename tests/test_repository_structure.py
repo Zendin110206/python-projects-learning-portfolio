@@ -52,6 +52,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/20_aim_trainer/README.md",
         "projects/20_aim_trainer/src/aim_trainer.py",
         "projects/21_advanced_python_scripting/README.md",
+        "projects/21_advanced_python_scripting/src/advanced_python_scripting.py",
+        "docs/assets/portfolio-preview.svg",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
@@ -62,6 +64,7 @@ def test_required_repository_docs_exist() -> None:
         "tests/test_project_18_automated_file_backup.py",
         "tests/test_project_19_mastermind_color_match.py",
         "tests/test_project_20_aim_trainer.py",
+        "tests/test_project_21_advanced_python_scripting.py",
     ]
 
     missing = [path for path in required_paths if not (ROOT / path).is_file()]
@@ -71,7 +74,7 @@ def test_required_repository_docs_exist() -> None:
 
 def test_local_notes_are_not_tracked_by_default() -> None:
     gitignore = (ROOT / ".gitignore").read_text(encoding="utf-8")
-    ignored_notes_dir = "/" + "local" + "_" + "context" + "/"
+    ignored_notes_dir = "/" + "local" + "?" + "context" + "/"
 
     assert ignored_notes_dir in gitignore
 
@@ -121,6 +124,8 @@ def test_public_docs_use_neutral_wording() -> None:
         "".join(["a", "gent"]),
         "local" + "_" + "context",
         "co" + "dex",
+        "pri" + "badi",
+        "pri" + "vat",
     ]
     leaked_files = []
     for path in public_docs:
@@ -129,3 +134,45 @@ def test_public_docs_use_neutral_wording() -> None:
             leaked_files.append(path)
 
     assert leaked_files == []
+
+
+def test_public_project_statuses_are_complete() -> None:
+    public_status_docs = [
+        "README.md",
+        "PROJECTS.md",
+        "projects/README.md",
+        "projects/01_quiz_game/README.md",
+        "projects/02_number_guessing_game/README.md",
+        "projects/03_rock_paper_scissors/README.md",
+        "projects/04_choose_your_own_adventure/README.md",
+        "projects/05_password_manager/README.md",
+        "projects/06_pig_dice_game/README.md",
+        "projects/07_madlibs_generator/README.md",
+        "projects/08_timed_math_challenge/README.md",
+        "projects/09_slot_machine/README.md",
+        "projects/10_turtle_racing/README.md",
+        "projects/11_wpm_typing_test/README.md",
+        "projects/12_alarm_clock/README.md",
+        "projects/13_password_generator/README.md",
+        "projects/14_shortest_path_finder/README.md",
+        "projects/15_expense_tracker/README.md",
+        "projects/16_currency_converter/README.md",
+        "projects/17_youtube_video_downloader/README.md",
+        "projects/18_automated_file_backup/README.md",
+        "projects/19_mastermind_color_match/README.md",
+        "projects/20_aim_trainer/README.md",
+        "projects/21_advanced_python_scripting/README.md",
+    ]
+    incomplete_terms = [
+        "in " + "progress",
+        "plan" + "ned",
+        "will be " + "implemented",
+    ]
+    incomplete_files = []
+
+    for path in public_status_docs:
+        text = (ROOT / path).read_text(encoding="utf-8").lower()
+        if any(term in text for term in incomplete_terms):
+            incomplete_files.append(path)
+
+    assert incomplete_files == []

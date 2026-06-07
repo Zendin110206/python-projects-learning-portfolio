@@ -1,8 +1,8 @@
 # Project Roadmap
 
-This roadmap follows the planned project order for the learning portfolio. All projects are currently planned; implementation will happen one project at a time.
+This roadmap follows the project order used for the learning portfolio. All listed projects are completed and covered by repository-level quality checks.
 
-| No. | Project | Level | Planned Folder | Status |
+| No. | Project | Level | Folder | Status |
 | ---: | --- | --- | --- | --- |
 | 1 | Quiz Game | Easy | `projects/01_quiz_game/` | Completed |
 | 2 | Number Guessing Game | Easy | `projects/02_number_guessing_game/` | Completed |
@@ -24,7 +24,7 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | 18 | Automated File Backup | Medium | `projects/18_automated_file_backup/` | Completed |
 | 19 | Mastermind / 4 Color Match | Advanced | `projects/19_mastermind_color_match/` | Completed |
 | 20 | Aim Trainer | Advanced | `projects/20_aim_trainer/` | Completed |
-| 21 | Advanced Python Scripting | Advanced | `projects/21_advanced_python_scripting/` | In Progress |
+| 21 | Advanced Python Scripting | Advanced | `projects/21_advanced_python_scripting/` | Completed |
 
 ## Per-Project Completion Standard
 
