@@ -48,6 +48,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/18_automated_file_backup/README.md",
         "projects/18_automated_file_backup/src/automated_file_backup.py",
         "projects/19_mastermind_color_match/README.md",
+        "projects/19_mastermind_color_match/src/mastermind_color_match.py",
+        "projects/20_aim_trainer/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
@@ -56,6 +58,7 @@ def test_required_repository_docs_exist() -> None:
         "tests/test_project_16_currency_converter.py",
         "tests/test_project_17_youtube_video_downloader.py",
         "tests/test_project_18_automated_file_backup.py",
+        "tests/test_project_19_mastermind_color_match.py",
     ]
 
     missing = [path for path in required_paths if not (ROOT / path).is_file()]
@@ -104,6 +107,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/17_youtube_video_downloader/README.md",
         "projects/18_automated_file_backup/README.md",
         "projects/19_mastermind_color_match/README.md",
+        "projects/20_aim_trainer/README.md",
     ]
 
     blocked_terms = [

@@ -5,3 +5,4 @@ cryptography>=42.0
 windows-curses>=2.4; platform_system == "Windows"
 pytubefix>=10.9.0
 schedule>=1.2.0
+pygame>=2.6.0

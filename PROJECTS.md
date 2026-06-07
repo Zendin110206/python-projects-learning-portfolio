@@ -22,8 +22,8 @@ This roadmap follows the planned project order for the learning portfolio. All p
 | 16 | Currency Converter | Medium | `projects/16_currency_converter/` | Completed |
 | 17 | YouTube Video Downloader | Medium | `projects/17_youtube_video_downloader/` | Completed |
 | 18 | Automated File Backup | Medium | `projects/18_automated_file_backup/` | Completed |
-| 19 | Mastermind / 4 Color Match | Advanced | `projects/19_mastermind_color_match/` | In Progress |
-| 20 | Aim Trainer | Advanced | `projects/20_aim_trainer/` | Planned |
+| 19 | Mastermind / 4 Color Match | Advanced | `projects/19_mastermind_color_match/` | Completed |
+| 20 | Aim Trainer | Advanced | `projects/20_aim_trainer/` | In Progress |
 | 21 | Advanced Python Scripting | Advanced | `projects/21_advanced_python_scripting/` | Planned |
 
 ## Per-Project Completion Standard

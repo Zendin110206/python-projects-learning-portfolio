@@ -27,10 +27,11 @@ This repository is inspired by Tech With Tim's public Python project sequence, b
 | Project 16 - Currency Converter | Complete |
 | Project 17 - YouTube Video Downloader | Complete |
 | Project 18 - Automated File Backup | Complete |
-| Project 19 - Mastermind / 4 Color Match | In progress |
+| Project 19 - Mastermind / 4 Color Match | Complete |
+| Project 20 - Aim Trainer | In progress |
 | Project implementations | Added one project at a time |
 
-Projects 01 through 18 are implemented and covered by basic automated checks. Project 19 currently has a public project brief and will be implemented manually as the next exercise.
+Projects 01 through 19 are implemented and covered by basic automated checks. Project 20 currently has a public project brief and will be implemented manually as the next exercise.
 
 ## Learning Goals
 
@@ -126,7 +127,11 @@ Projects 01 through 18 are implemented and covered by basic automated checks. Pr
 │   │   ├── README.md
 │   │   └── src/
 │   │       └── automated_file_backup.py
-│   └── 19_mastermind_color_match/
+│   ├── 19_mastermind_color_match/
+│   │   ├── README.md
+│   │   └── src/
+│   │       └── mastermind_color_match.py
+│   └── 20_aim_trainer/
 │       └── README.md
 ├── tests/
 │   ├── test_project_01_quiz_game.py
@@ -147,6 +152,7 @@ Projects 01 through 18 are implemented and covered by basic automated checks. Pr
 │   ├── test_project_16_currency_converter.py
 │   ├── test_project_17_youtube_video_downloader.py
 │   ├── test_project_18_automated_file_backup.py
+│   ├── test_project_19_mastermind_color_match.py
 │   └── test_repository_structure.py
 ├── PROJECTS.md
 ├── pyproject.toml

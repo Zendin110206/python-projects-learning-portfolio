@@ -52,3 +52,8 @@ Project-specific references should be added only when a project actually starts 
 - Project 19 - Mastermind / 4 Color Match video section: <https://www.youtube.com/watch?v=NpmFbWO6HPU&t=26478s>
 - Project 19 - Python random documentation: <https://docs.python.org/3/library/random.html>
 - Project 19 - Python collections documentation: <https://docs.python.org/3/library/collections.html>
+- Project 20 - Aim Trainer reference repository: <https://github.com/techwithtim/Python-Aim-Trainer>
+- Project 20 - Aim Trainer reference file: <https://github.com/techwithtim/Python-Aim-Trainer/blob/main/tutorial.py>
+- Project 20 - Pygame draw documentation: <https://www.pygame.org/docs/ref/draw.html>
+- Project 20 - Pygame event documentation: <https://www.pygame.org/docs/ref/event.html>
+- Project 20 - Pygame time documentation: <https://www.pygame.org/docs/ref/time.html>

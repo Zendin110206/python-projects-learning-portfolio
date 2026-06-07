@@ -1,6 +1,6 @@
 # Project 19 - Mastermind / 4 Color Match
 
-Status: In progress.
+Status: Completed.
 
 This project is a command-line Mastermind-style color matching game. It is intended for practicing game state, random secret generation, repeated input validation, duplicate-aware scoring, and readable terminal feedback.
 
@@ -24,9 +24,9 @@ Build a terminal game that:
 - handling duplicate colors without overcounting matches,
 - separating game rules, scoring, formatting, and terminal flow.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/19_mastermind_color_match/src/mastermind_color_match.py
@@ -54,3 +54,4 @@ Invalid guesses should not count as attempts. The program should show exact matc
 - This project uses only the Python standard library.
 - Tests should use fixed secret codes instead of relying on random output.
 - The duplicate-aware scoring logic is the main advanced part of this project.
+- Automated tests cover parsing, validation, duplicate-aware scoring, quit, win, and out-of-attempts flows.
