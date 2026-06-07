@@ -47,3 +47,10 @@ projects/17_youtube_video_downloader/downloads/
 # Local automated-backup practice data
 projects/18_automated_file_backup/source/
 projects/18_automated_file_backup/backups/
+
+# Local aim-trainer runtime save data
+projects/20_aim_trainer/src/aim_trainer_save.json
+
+# Local advanced-scripting practice data
+projects/21_advanced_python_scripting/source/
+projects/21_advanced_python_scripting/output/

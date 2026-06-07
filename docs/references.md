@@ -57,3 +57,9 @@ Project-specific references should be added only when a project actually starts 
 - Project 20 - Pygame draw documentation: <https://www.pygame.org/docs/ref/draw.html>
 - Project 20 - Pygame event documentation: <https://www.pygame.org/docs/ref/event.html>
 - Project 20 - Pygame time documentation: <https://www.pygame.org/docs/ref/time.html>
+- Project 21 - Advanced Python Scripting video section: <https://www.youtube.com/watch?v=NpmFbWO6HPU&t=31161s>
+- Project 21 - Python argparse documentation: <https://docs.python.org/3/library/argparse.html>
+- Project 21 - Python pathlib documentation: <https://docs.python.org/3/library/pathlib.html>
+- Project 21 - Python shutil documentation: <https://docs.python.org/3/library/shutil.html>
+- Project 21 - Python json documentation: <https://docs.python.org/3/library/json.html>
+- Project 21 - Python subprocess documentation: <https://docs.python.org/3/library/subprocess.html>

@@ -50,6 +50,8 @@ def test_required_repository_docs_exist() -> None:
         "projects/19_mastermind_color_match/README.md",
         "projects/19_mastermind_color_match/src/mastermind_color_match.py",
         "projects/20_aim_trainer/README.md",
+        "projects/20_aim_trainer/src/aim_trainer.py",
+        "projects/21_advanced_python_scripting/README.md",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
@@ -59,6 +61,7 @@ def test_required_repository_docs_exist() -> None:
         "tests/test_project_17_youtube_video_downloader.py",
         "tests/test_project_18_automated_file_backup.py",
         "tests/test_project_19_mastermind_color_match.py",
+        "tests/test_project_20_aim_trainer.py",
     ]
 
     missing = [path for path in required_paths if not (ROOT / path).is_file()]
@@ -80,6 +83,9 @@ def test_runtime_practice_data_is_not_tracked_by_default() -> None:
     assert "projects/17_youtube_video_downloader/downloads/" in gitignore
     assert "projects/18_automated_file_backup/source/" in gitignore
     assert "projects/18_automated_file_backup/backups/" in gitignore
+    assert "projects/20_aim_trainer/src/aim_trainer_save.json" in gitignore
+    assert "projects/21_advanced_python_scripting/source/" in gitignore
+    assert "projects/21_advanced_python_scripting/output/" in gitignore
 
 
 def test_public_docs_use_neutral_wording() -> None:
@@ -108,6 +114,7 @@ def test_public_docs_use_neutral_wording() -> None:
         "projects/18_automated_file_backup/README.md",
         "projects/19_mastermind_color_match/README.md",
         "projects/20_aim_trainer/README.md",
+        "projects/21_advanced_python_scripting/README.md",
     ]
 
     blocked_terms = [

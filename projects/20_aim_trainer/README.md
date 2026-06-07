@@ -1,6 +1,6 @@
 # Project 20 - Aim Trainer
 
-Status: In progress.
+Status: Completed.
 
 This project is a Pygame-based aim trainer. It is intended for practicing graphical game loops, timed target spawning, mouse collision detection, animated targets, live performance metrics, and an end screen.
 
@@ -25,9 +25,9 @@ Build a desktop game that:
 - rendering text labels,
 - separating target behavior, drawing, metrics, and loop control.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/20_aim_trainer/src/aim_trainer.py
@@ -54,3 +54,4 @@ A valid run should open a window titled `Aim Trainer`, spawn animated targets, u
 - This project uses `pygame`.
 - Automated tests should focus on pure logic, formatting, target collision, and event-independent behavior.
 - Manual visual testing is required for the game window and interaction.
+- Automated tests cover timing helpers, target growth, collision, random spawn bounds, and top-bar label text.

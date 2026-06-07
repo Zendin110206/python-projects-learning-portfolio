@@ -37,4 +37,5 @@ The exact structure may change for projects that need assets, data, or a differe
 | [17 YouTube Video Downloader](17_youtube_video_downloader/README.md) | Completed |
 | [18 Automated File Backup](18_automated_file_backup/README.md) | Completed |
 | [19 Mastermind / 4 Color Match](19_mastermind_color_match/README.md) | Completed |
-| [20 Aim Trainer](20_aim_trainer/README.md) | In progress |
+| [20 Aim Trainer](20_aim_trainer/README.md) | Completed |
+| [21 Advanced Python Scripting](21_advanced_python_scripting/README.md) | In progress |
