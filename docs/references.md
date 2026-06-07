@@ -49,3 +49,6 @@ Project-specific references should be added only when a project actually starts 
 - Project 18 - Python shutil documentation: <https://docs.python.org/3/library/shutil.html>
 - Project 18 - Python pathlib documentation: <https://docs.python.org/3/library/pathlib.html>
 - Project 18 - schedule documentation: <https://schedule.readthedocs.io/en/stable/>
+- Project 19 - Mastermind / 4 Color Match video section: <https://www.youtube.com/watch?v=NpmFbWO6HPU&t=26478s>
+- Project 19 - Python random documentation: <https://docs.python.org/3/library/random.html>
+- Project 19 - Python collections documentation: <https://docs.python.org/3/library/collections.html>

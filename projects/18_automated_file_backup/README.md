@@ -1,6 +1,6 @@
 # Project 18 - Automated File Backup
 
-Status: In progress.
+Status: Completed.
 
 This project is a scheduled folder backup utility. It is intended for practicing file-system automation, folder validation, timestamped backup naming, scheduled jobs, and clear terminal feedback for file operations.
 
@@ -24,9 +24,9 @@ Build a terminal program that:
 - scheduling repeated jobs with `schedule`,
 - keeping copy logic separate from terminal and scheduler logic.
 
-## Planned Run Command
+## Run Command
 
-The exact command will be finalized after the implementation is added. The intended shape is:
+From the repository root:
 
 ```powershell
 python projects/18_automated_file_backup/src/automated_file_backup.py
@@ -53,3 +53,4 @@ Invalid folders, invalid schedule times, same source/destination paths, and copy
 - Runtime source and backup folders are local practice data and should stay out of version control.
 - The first version focuses on local folders only.
 - Cloud backup, compression, encryption, and incremental backup are intentionally out of scope.
+- Automated tests cover path validation, timestamped backup paths, folder copying, scheduler setup, and terminal flow.
