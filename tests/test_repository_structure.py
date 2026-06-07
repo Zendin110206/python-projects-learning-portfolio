@@ -53,7 +53,7 @@ def test_required_repository_docs_exist() -> None:
         "projects/20_aim_trainer/src/aim_trainer.py",
         "projects/21_advanced_python_scripting/README.md",
         "projects/21_advanced_python_scripting/src/advanced_python_scripting.py",
-        "docs/assets/portfolio-preview.svg",
+        "docs/assets/aim-trainer-preview.gif",
         "pyproject.toml",
         "requirements-dev.txt",
         "tests/test_project_13_password_generator.py",
@@ -70,6 +70,12 @@ def test_required_repository_docs_exist() -> None:
     missing = [path for path in required_paths if not (ROOT / path).is_file()]
 
     assert missing == []
+
+
+def test_readme_preview_asset_is_a_gif() -> None:
+    preview_asset = ROOT / "docs/assets/aim-trainer-preview.gif"
+
+    assert preview_asset.read_bytes().startswith(b"GIF89a")
 
 
 def test_local_notes_are_not_tracked_by_default() -> None:

@@ -4,14 +4,14 @@ A curated Python learning portfolio focused on small, practical projects, indepe
 
 This repository is inspired by Tech With Tim's public Python project sequence, but the implementations are intended to be written independently. The goal is to build strong Python fundamentals through deliberate practice, not to copy finished tutorial code.
 
-![Python Projects Learning Portfolio preview](docs/assets/portfolio-preview.svg)
+![Aim Trainer gameplay preview](docs/assets/aim-trainer-preview.gif)
 
 ## Portfolio Snapshot
 
 | Metric | Value |
 | --- | --- |
 | Completed projects | 21 |
-| Automated tests | 183 |
+| Automated tests | 184 |
 | Tooling | Pytest, Ruff, GitHub Actions |
 | Focus areas | CLI apps, games, APIs, file automation, terminal UI, Pygame |
 
@@ -62,7 +62,7 @@ Projects 01 through 21 are implemented and covered by automated checks.
 │       └── ci.yml
 ├── docs/
 │   ├── assets/
-│   │   └── portfolio-preview.svg
+│   │   └── aim-trainer-preview.gif
 │   ├── learning-workflow.md
 │   └── references.md
 ├── projects/
